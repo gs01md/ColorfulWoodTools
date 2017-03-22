@@ -1,0 +1,6 @@
+framework module ColorfulWoodTools {
+  umbrella header "ColorfulWoodTools.h"
+
+  export *
+  module * { export * }
+}

@@ -13,7 +13,10 @@
 UIImagePickerControllerDelegate,
 UINavigationControllerDelegate,
 UIActionSheetDelegate
->
+>{
+    
+    UIActionSheet *m_sheet;
+}
 
 @property(nonatomic, weak)UIViewController<UIActionSheetDelegate>* m_viewController;
 
@@ -34,26 +37,24 @@ UIActionSheetDelegate
      
         self.m_viewController = viewController;
         
-        UIActionSheet *sheet;
-        
         if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
             
-            sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
-            [sheet addButtonWithTitle:@"拍照"];
-            [sheet addButtonWithTitle:@"从手机相册选择"];
-            [sheet addButtonWithTitle:@"取消"];
-            sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
+            m_sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
+            [m_sheet addButtonWithTitle:@"拍照"];
+            [m_sheet addButtonWithTitle:@"从手机相册选择"];
+            [m_sheet addButtonWithTitle:@"取消"];
+            m_sheet.cancelButtonIndex = m_sheet.numberOfButtons - 1;
             
         } else {
             
-            sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
-            [sheet addButtonWithTitle:@"使用相册"];
-            [sheet addButtonWithTitle:@"取消"];
-            sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
+            m_sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
+            [m_sheet addButtonWithTitle:@"使用相册"];
+            [m_sheet addButtonWithTitle:@"取消"];
+            m_sheet.cancelButtonIndex = m_sheet.numberOfButtons - 1;
         }
         
-        sheet.tag = 255;
-        [sheet showInView:self.m_viewController.view];
+        m_sheet.tag = 255;
+        [m_sheet showInView:self.m_viewController.view];
     }
     
     return self;

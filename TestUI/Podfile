@@ -1,0 +1,8 @@
+
+platform :ios, '8.0'
+
+target 'TestUI' do
+
+pod 'MBProgressHUD', '~> 0.9.1'
+
+end
