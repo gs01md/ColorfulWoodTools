@@ -27,29 +27,36 @@ UINavigationControllerDelegate
  *
  *  @param viewController 显示视图
  */
-- (void)selectPhotoWithView:(UIViewController<UIActionSheetDelegate>*)viewController{
+- (instancetype)initWithWithView:(UIViewController<UIActionSheetDelegate>*)viewController{
     
-    self.m_viewController = viewController;
-    
-    UIActionSheet *sheet;
-    
-    if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+    if (self = [super init]) {
+     
+        self.m_viewController = viewController;
         
-        sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self.m_viewController cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
-        [sheet addButtonWithTitle:@"拍照"];
-        [sheet addButtonWithTitle:@"从手机相册选择"];
-        [sheet addButtonWithTitle:@"取消"];
-        sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
-    } else {
+        UIActionSheet *sheet;
         
-        sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self.m_viewController cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
-        [sheet addButtonWithTitle:@"使用相册"];
-        [sheet addButtonWithTitle:@"取消"];
-        sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
+        if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+            
+            sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self.m_viewController cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
+            [sheet addButtonWithTitle:@"拍照"];
+            [sheet addButtonWithTitle:@"从手机相册选择"];
+            [sheet addButtonWithTitle:@"取消"];
+            sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
+            
+        } else {
+            
+            sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self.m_viewController cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
+            [sheet addButtonWithTitle:@"使用相册"];
+            [sheet addButtonWithTitle:@"取消"];
+            sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
+        }
+        
+        sheet.tag = 255;
+        [sheet showInView:self.m_viewController.view];
     }
     
-    sheet.tag = 255;
-    [sheet showInView:self.m_viewController.view];
+    return self;
+
 }
 #pragma mark - UIActionSheetDelegate
 -(void) actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
@@ -85,6 +92,8 @@ UINavigationControllerDelegate
                 sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
             }
         }
+        
+        
         // 跳转到相机或相册页面
         UIImagePickerController *imagePickerController = [[UIImagePickerController alloc] init];
         imagePickerController.navigationController.delegate=self;

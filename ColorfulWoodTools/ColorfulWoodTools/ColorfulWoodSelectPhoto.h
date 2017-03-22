@@ -31,7 +31,12 @@
 
 @property(nonatomic, weak) id<ColorfulWoodSelectPhotoDelegate> delegate;
 
-
+/**
+ *  点击头像
+ *
+ *  @param viewController 显示视图
+ */
+- (instancetype)initWithWithView:(UIViewController<UIActionSheetDelegate>*)viewController;
 
 
 @end
