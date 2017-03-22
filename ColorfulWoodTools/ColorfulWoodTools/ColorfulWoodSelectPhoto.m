@@ -11,7 +11,8 @@
 
 @interface ColorfulWoodSelectPhoto()<
 UIImagePickerControllerDelegate,
-UINavigationControllerDelegate
+UINavigationControllerDelegate,
+UIActionSheetDelegate
 >
 
 @property(nonatomic, weak)UIViewController<UIActionSheetDelegate>* m_viewController;
@@ -37,7 +38,7 @@ UINavigationControllerDelegate
         
         if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
             
-            sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self.m_viewController cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
+            sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
             [sheet addButtonWithTitle:@"拍照"];
             [sheet addButtonWithTitle:@"从手机相册选择"];
             [sheet addButtonWithTitle:@"取消"];
@@ -45,7 +46,7 @@ UINavigationControllerDelegate
             
         } else {
             
-            sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self.m_viewController cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
+            sheet = [[UIActionSheet alloc] initWithTitle:nil delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil, nil];
             [sheet addButtonWithTitle:@"使用相册"];
             [sheet addButtonWithTitle:@"取消"];
             sheet.cancelButtonIndex = sheet.numberOfButtons - 1;
