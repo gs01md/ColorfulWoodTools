@@ -14,7 +14,7 @@ UIImagePickerControllerDelegate,
 UINavigationControllerDelegate
 >
 
-@property(nonatomic, weak)UIViewController* m_viewController;
+@property(nonatomic, weak)UIViewController<UIActionSheetDelegate>* m_viewController;
 
 @end
 
@@ -27,7 +27,7 @@ UINavigationControllerDelegate
  *
  *  @param viewController 显示视图
  */
-- (void)selectPhotoWithView:(UIViewController*)viewController{
+- (void)selectPhotoWithView:(UIViewController<UIActionSheetDelegate>*)viewController{
     
     self.m_viewController = viewController;
     
