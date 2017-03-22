@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ColorfulWoodTools"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "tools for ios."
 
   s.homepage     = "https://github.com/gs01md"
@@ -19,6 +19,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
   s.frameworks   = 'Foundation'
+  s.frameworks   = 'UIKit'
 
   s.dependency   'MBProgressHUD', '~> 0.9.1'
 

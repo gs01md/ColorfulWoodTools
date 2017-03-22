@@ -21,7 +21,7 @@
 /**
  *  手机号验证
  *
- *  @param phone 手机号
+ *  @param mobilePhone 手机号
  *
  *  @return YES:正确  NO:失败
  */
