@@ -18,7 +18,7 @@ UIActionSheetDelegate
     UIActionSheet *m_sheet;
 }
 
-@property(nonatomic, weak)UIViewController<UIActionSheetDelegate>* m_viewController;
+@property(nonatomic, weak)UIViewController* m_viewController;
 
 @end
 
@@ -31,7 +31,7 @@ UIActionSheetDelegate
  *
  *  @param viewController 显示视图
  */
-- (instancetype)initWithWithView:(UIViewController<UIActionSheetDelegate>*)viewController{
+- (instancetype)initWithWithView:(UIViewController*)viewController{
     
     if (self = [super init]) {
      

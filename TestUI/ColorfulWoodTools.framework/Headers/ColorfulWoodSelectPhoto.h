@@ -36,7 +36,7 @@
  *
  *  @param viewController 显示视图
  */
-- (instancetype)initWithWithView:(UIViewController<UIActionSheetDelegate>*)viewController;
+- (instancetype)initWithWithView:(UIViewController*)viewController;
 
 
 @end
