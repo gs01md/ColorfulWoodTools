@@ -12,7 +12,7 @@ typedef enum {
     /**
      * 成功
      */
-    BmobErrorType_Success = 0,
+    BmobErrorType_Success = 200,
     
     /**
      * 数据为空

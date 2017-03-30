@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ColorfulWoodTools"
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "tools for ios."
 
   s.homepage     = "https://github.com/gs01md"
