@@ -22,19 +22,11 @@
 
 /* Begin PBXBuildFile section */
 		0A08DD23AB3A036F1DBE4B6B /* libPods-ColorfulWoodTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2118B50E02239F696447C74 /* libPods-ColorfulWoodTools.a */; };
-		8B4688C81E5D7D1500D397AE /* NSString+ColorfulWoodRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4688C01E5D7D1500D397AE /* NSString+ColorfulWoodRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B4688C91E5D7D1500D397AE /* NSString+ColorfulWoodRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4688C11E5D7D1500D397AE /* NSString+ColorfulWoodRegex.m */; };
-		8B4688CA1E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4688C21E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B4688CB1E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4688C31E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.m */; };
-		8B4688CC1E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4688C41E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B4688CD1E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4688C51E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.m */; };
-		8B4688CE1E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4688C61E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B4688CF1E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4688C71E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.m */; };
-		8B4688D21E5D7DE600D397AE /* NSDictionary+BmobCheckResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4688D01E5D7DE600D397AE /* NSDictionary+BmobCheckResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B4688D31E5D7DE600D397AE /* NSDictionary+BmobCheckResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4688D11E5D7DE600D397AE /* NSDictionary+BmobCheckResult.m */; };
 		8B4BB7EC1E5C086200C3623D /* ColorfulWoodTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4BB7EA1E5C086200C3623D /* ColorfulWoodTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B4BB7F91E5C0AA500C3623D /* ColorfulWoodAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4BB7F71E5C0AA500C3623D /* ColorfulWoodAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B4BB7FA1E5C0AA500C3623D /* ColorfulWoodAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4BB7F81E5C0AA500C3623D /* ColorfulWoodAlert.m */; };
+		8B61112920AD57CF00D55C3A /* ColorfulWoodCheckArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B61112720AD57CF00D55C3A /* ColorfulWoodCheckArray.h */; };
+		8B61112A20AD57CF00D55C3A /* ColorfulWoodCheckArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B61112820AD57CF00D55C3A /* ColorfulWoodCheckArray.m */; };
 		8B6262EE1E81334B000D3868 /* ColorfulWoodSelectPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6262EC1E81334B000D3868 /* ColorfulWoodSelectPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B6262EF1E81334B000D3868 /* ColorfulWoodSelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B6262ED1E81334B000D3868 /* ColorfulWoodSelectPhoto.m */; };
 		8B6262F11E813737000D3868 /* ColorfullWoodToolDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B6262F01E813737000D3868 /* ColorfullWoodToolDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,21 +34,13 @@
 
 /* Begin PBXFileReference section */
 		403F54C14301E50477095F45 /* Pods-ColorfulWoodTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulWoodTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulWoodTools/Pods-ColorfulWoodTools.release.xcconfig"; sourceTree = "<group>"; };
-		8B4688C01E5D7D1500D397AE /* NSString+ColorfulWoodRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ColorfulWoodRegex.h"; sourceTree = "<group>"; };
-		8B4688C11E5D7D1500D397AE /* NSString+ColorfulWoodRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ColorfulWoodRegex.m"; sourceTree = "<group>"; };
-		8B4688C21E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorfulWoodAddtional.h"; sourceTree = "<group>"; };
-		8B4688C31E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorfulWoodAddtional.m"; sourceTree = "<group>"; };
-		8B4688C41E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+ColorfulWoodMargin.h"; sourceTree = "<group>"; };
-		8B4688C51E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+ColorfulWoodMargin.m"; sourceTree = "<group>"; };
-		8B4688C61E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ColorfulWoodAddtional.h"; sourceTree = "<group>"; };
-		8B4688C71E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ColorfulWoodAddtional.m"; sourceTree = "<group>"; };
-		8B4688D01E5D7DE600D397AE /* NSDictionary+BmobCheckResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BmobCheckResult.h"; sourceTree = "<group>"; };
-		8B4688D11E5D7DE600D397AE /* NSDictionary+BmobCheckResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BmobCheckResult.m"; sourceTree = "<group>"; };
 		8B4BB7E71E5C086200C3623D /* ColorfulWoodTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorfulWoodTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4BB7EA1E5C086200C3623D /* ColorfulWoodTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodTools.h; sourceTree = "<group>"; };
 		8B4BB7EB1E5C086200C3623D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B4BB7F71E5C0AA500C3623D /* ColorfulWoodAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodAlert.h; sourceTree = "<group>"; };
 		8B4BB7F81E5C0AA500C3623D /* ColorfulWoodAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodAlert.m; sourceTree = "<group>"; };
+		8B61112720AD57CF00D55C3A /* ColorfulWoodCheckArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodCheckArray.h; sourceTree = "<group>"; };
+		8B61112820AD57CF00D55C3A /* ColorfulWoodCheckArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodCheckArray.m; sourceTree = "<group>"; };
 		8B6262EC1E81334B000D3868 /* ColorfulWoodSelectPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodSelectPhoto.h; sourceTree = "<group>"; };
 		8B6262ED1E81334B000D3868 /* ColorfulWoodSelectPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodSelectPhoto.m; sourceTree = "<group>"; };
 		8B6262F01E813737000D3868 /* ColorfullWoodToolDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfullWoodToolDefine.h; sourceTree = "<group>"; };
@@ -106,23 +90,15 @@
 		8B4BB7E91E5C086200C3623D /* ColorfulWoodTools */ = {
 			isa = PBXGroup;
 			children = (
-				8B4688C01E5D7D1500D397AE /* NSString+ColorfulWoodRegex.h */,
-				8B4688C11E5D7D1500D397AE /* NSString+ColorfulWoodRegex.m */,
-				8B4688C21E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.h */,
-				8B4688C31E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.m */,
-				8B4688C41E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.h */,
-				8B4688C51E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.m */,
-				8B4688C61E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.h */,
-				8B4688C71E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.m */,
 				8B4BB7EA1E5C086200C3623D /* ColorfulWoodTools.h */,
 				8B4BB7EB1E5C086200C3623D /* Info.plist */,
 				8B4BB7F71E5C0AA500C3623D /* ColorfulWoodAlert.h */,
 				8B4BB7F81E5C0AA500C3623D /* ColorfulWoodAlert.m */,
-				8B4688D01E5D7DE600D397AE /* NSDictionary+BmobCheckResult.h */,
-				8B4688D11E5D7DE600D397AE /* NSDictionary+BmobCheckResult.m */,
 				8B6262EC1E81334B000D3868 /* ColorfulWoodSelectPhoto.h */,
 				8B6262ED1E81334B000D3868 /* ColorfulWoodSelectPhoto.m */,
 				8B6262F01E813737000D3868 /* ColorfullWoodToolDefine.h */,
+				8B61112720AD57CF00D55C3A /* ColorfulWoodCheckArray.h */,
+				8B61112820AD57CF00D55C3A /* ColorfulWoodCheckArray.m */,
 			);
 			path = ColorfulWoodTools;
 			sourceTree = "<group>";
@@ -142,14 +118,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4688CC1E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.h in Headers */,
-				8B4688CE1E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.h in Headers */,
-				8B4688CA1E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.h in Headers */,
-				8B4688C81E5D7D1500D397AE /* NSString+ColorfulWoodRegex.h in Headers */,
 				8B4BB7F91E5C0AA500C3623D /* ColorfulWoodAlert.h in Headers */,
+				8B61112920AD57CF00D55C3A /* ColorfulWoodCheckArray.h in Headers */,
 				8B6262EE1E81334B000D3868 /* ColorfulWoodSelectPhoto.h in Headers */,
 				8B6262F11E813737000D3868 /* ColorfullWoodToolDefine.h in Headers */,
-				8B4688D21E5D7DE600D397AE /* NSDictionary+BmobCheckResult.h in Headers */,
 				8B4BB7EC1E5C086200C3623D /* ColorfulWoodTools.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,13 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B61112A20AD57CF00D55C3A /* ColorfulWoodCheckArray.m in Sources */,
 				8B6262EF1E81334B000D3868 /* ColorfulWoodSelectPhoto.m in Sources */,
-				8B4688C91E5D7D1500D397AE /* NSString+ColorfulWoodRegex.m in Sources */,
-				8B4688CD1E5D7D1500D397AE /* UINavigationItem+ColorfulWoodMargin.m in Sources */,
-				8B4688D31E5D7DE600D397AE /* NSDictionary+BmobCheckResult.m in Sources */,
-				8B4688CF1E5D7D1500D397AE /* UIViewController+ColorfulWoodAddtional.m in Sources */,
 				8B4BB7FA1E5C0AA500C3623D /* ColorfulWoodAlert.m in Sources */,
-				8B4688CB1E5D7D1500D397AE /* UIImage+ColorfulWoodAddtional.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
