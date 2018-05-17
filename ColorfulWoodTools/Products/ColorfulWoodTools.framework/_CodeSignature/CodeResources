@@ -14,35 +14,15 @@
 		</data>
 		<key>Headers/ColorfulWoodTools.h</key>
 		<data>
-		nVnBT8p9ljrfqYUKrYNDNz2jG5A=
+		Ld67zzuOl9E2+Uz4IcuKMDSh+CU=
 		</data>
 		<key>Headers/ColorfullWoodToolDefine.h</key>
 		<data>
 		FnDYYsVNY5iVN7wSy5OGl7dBt/U=
 		</data>
-		<key>Headers/NSDictionary+BmobCheckResult.h</key>
-		<data>
-		zaTLmQZ5pCJeNFTGmV3BJKO3Xjk=
-		</data>
-		<key>Headers/NSString+ColorfulWoodRegex.h</key>
-		<data>
-		qokhYUFDOeSTR+1lD9g9xa1/Dfc=
-		</data>
-		<key>Headers/UIImage+ColorfulWoodAddtional.h</key>
-		<data>
-		8OzpesM2AnqxXKm2L4Ia2Tbs2JA=
-		</data>
-		<key>Headers/UINavigationItem+ColorfulWoodMargin.h</key>
-		<data>
-		OBfHsBp4WcB7XVJJWF/85NUNTEU=
-		</data>
-		<key>Headers/UIViewController+ColorfulWoodAddtional.h</key>
-		<data>
-		RlLPvD34afIIp9VpjvlN3vUQuhc=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		PrAbpGe83EGcUFSY1ok4IvvoiQU=
+		eCJqpgUpuEfiFT3reCbgoXEbB+s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,11 +57,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nVnBT8p9ljrfqYUKrYNDNz2jG5A=
+			Ld67zzuOl9E2+Uz4IcuKMDSh+CU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bMoCpXYd+0XptzEomEhNdjoSXk563s0LUh1IRah/D2Q=
+			M4jeBPbMCkXfpdnjiGf/U7J7DgqbpGvjSa6mV+RU0zc=
 			</data>
 		</dict>
 		<key>Headers/ColorfullWoodToolDefine.h</key>
@@ -93,61 +73,6 @@
 			<key>hash2</key>
 			<data>
 			OzZRH5VWWcIHjbDIRJ3JXmJCoqqjOdqmu83Ppcbr2BE=
-			</data>
-		</dict>
-		<key>Headers/NSDictionary+BmobCheckResult.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zaTLmQZ5pCJeNFTGmV3BJKO3Xjk=
-			</data>
-			<key>hash2</key>
-			<data>
-			lqtBHh5F3yK0ehTaPOCzc6SQBPNnRqYzaiz7sBB2skY=
-			</data>
-		</dict>
-		<key>Headers/NSString+ColorfulWoodRegex.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qokhYUFDOeSTR+1lD9g9xa1/Dfc=
-			</data>
-			<key>hash2</key>
-			<data>
-			hPWpR3aPEjw41Di8Ulo2xYJGUKPIY9iB4f5WP+r7/6o=
-			</data>
-		</dict>
-		<key>Headers/UIImage+ColorfulWoodAddtional.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			8OzpesM2AnqxXKm2L4Ia2Tbs2JA=
-			</data>
-			<key>hash2</key>
-			<data>
-			SHOEBE9srmEXVVJCkeVuoNNdAKLXT09m4MDt1FQ7Y0w=
-			</data>
-		</dict>
-		<key>Headers/UINavigationItem+ColorfulWoodMargin.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OBfHsBp4WcB7XVJJWF/85NUNTEU=
-			</data>
-			<key>hash2</key>
-			<data>
-			JGEPP3ZNp8pXqjF7UZwjMXMAwnPXSidzlV/LRcPR3oU=
-			</data>
-		</dict>
-		<key>Headers/UIViewController+ColorfulWoodAddtional.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RlLPvD34afIIp9VpjvlN3vUQuhc=
-			</data>
-			<key>hash2</key>
-			<data>
-			nNQkQ9LUlY9rP+RKUmq5OzaAsU+7/sd1MZ1nzf+11wY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
