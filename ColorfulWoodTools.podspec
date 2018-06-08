@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ColorfulWoodTools"
-  s.version      = "1.0.11"
+  s.version      = "1.0.13"
   s.summary      = "tools for ios."
 
   s.homepage     = "https://github.com/gs01md"
@@ -14,13 +14,13 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/gs01md/ColorfulWoodTools.git", :tag => "#{s.version}" }
 
-  s.source_files = "ColorfulWoodTools/ColorfulWoodTools/**/*"
+  s.source_files = "ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/**/*"
 
   s.platform     = :ios, "8.0"
 
   s.frameworks   = 'Foundation'
   s.frameworks   = 'UIKit'
 
-  s.dependency   'MBProgressHUD', '~> 0.9.1'
+  s.dependency   'MBProgressHUD', '~> 0.9.2'
 
 end
