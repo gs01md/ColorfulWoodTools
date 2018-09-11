@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B1A86882146701100ED1896 /* UIImage+ColorfulWood.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A86872146701100ED1896 /* UIImage+ColorfulWood.m */; };
 		8B4C327020C7DDE4008B315D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C326F20C7DDE4008B315D /* AppDelegate.m */; };
 		8B4C327320C7DDE4008B315D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C327220C7DDE4008B315D /* ViewController.m */; };
 		8B4C327620C7DDE4008B315D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C327420C7DDE4008B315D /* Main.storyboard */; };
@@ -17,12 +18,16 @@
 		8B4C329420C7DE4C008B315D /* ColorfulWoodSelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C328A20C7DE3F008B315D /* ColorfulWoodSelectPhoto.m */; };
 		8B4C329520C7DE4C008B315D /* ColorfulWoodCheckArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C328F20C7DE3F008B315D /* ColorfulWoodCheckArray.m */; };
 		8B4C329620C7DE4C008B315D /* ColorfulWoodAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C329120C7DE3F008B315D /* ColorfulWoodAlert.m */; };
+		8B4F778A212E463600836B74 /* ColorfulWoodPhoneCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4F7789212E463600836B74 /* ColorfulWoodPhoneCall.m */; };
+		8B4F778C212E4B0A00836B74 /* ColorfulWoodTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8B4F778B212E4B0A00836B74 /* ColorfulWoodTools.podspec */; };
 		DF26F294182A17D3C0CD4342 /* libPods-ColorfulWoodTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7384413E09759A78182DE4CF /* libPods-ColorfulWoodTools.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		122ED877DD7685B15F31BE01 /* Pods-ColorfulWoodTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulWoodTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulWoodTools/Pods-ColorfulWoodTools.debug.xcconfig"; sourceTree = "<group>"; };
 		7384413E09759A78182DE4CF /* libPods-ColorfulWoodTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorfulWoodTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1A86862146701100ED1896 /* UIImage+ColorfulWood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorfulWood.h"; sourceTree = "<group>"; };
+		8B1A86872146701100ED1896 /* UIImage+ColorfulWood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorfulWood.m"; sourceTree = "<group>"; };
 		8B4C326B20C7DDE4008B315D /* ColorfulWoodTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfulWoodTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4C326E20C7DDE4008B315D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B4C326F20C7DDE4008B315D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +48,9 @@
 		8B4C328F20C7DE3F008B315D /* ColorfulWoodCheckArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodCheckArray.m; sourceTree = "<group>"; };
 		8B4C329120C7DE3F008B315D /* ColorfulWoodAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodAlert.m; sourceTree = "<group>"; };
 		8B4C329220C7DE3F008B315D /* ColorfulWoodAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodAlert.h; sourceTree = "<group>"; };
+		8B4F7788212E463600836B74 /* ColorfulWoodPhoneCall.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodPhoneCall.h; sourceTree = "<group>"; };
+		8B4F7789212E463600836B74 /* ColorfulWoodPhoneCall.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodPhoneCall.m; sourceTree = "<group>"; };
+		8B4F778B212E4B0A00836B74 /* ColorfulWoodTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ColorfulWoodTools.podspec; path = ../../ColorfulWoodTools.podspec; sourceTree = "<group>"; };
 		CC853D718B1160DE83C15410 /* Pods-ColorfulWoodTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorfulWoodTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorfulWoodTools/Pods-ColorfulWoodTools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +74,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8B1A868521466F5200ED1896 /* ColorfulWoodImage */ = {
+			isa = PBXGroup;
+			children = (
+				8B1A86862146701100ED1896 /* UIImage+ColorfulWood.h */,
+				8B1A86872146701100ED1896 /* UIImage+ColorfulWood.m */,
+			);
+			path = ColorfulWoodImage;
+			sourceTree = "<group>";
+		};
 		8B4C326220C7DDE4008B315D = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +104,7 @@
 		8B4C326D20C7DDE4008B315D /* ColorfulWoodTools */ = {
 			isa = PBXGroup;
 			children = (
+				8B4F778B212E4B0A00836B74 /* ColorfulWoodTools.podspec */,
 				8B4C328420C7DE3F008B315D /* CocoapodFiles */,
 				8B4C326E20C7DDE4008B315D /* AppDelegate.h */,
 				8B4C326F20C7DDE4008B315D /* AppDelegate.m */,
@@ -141,8 +159,8 @@
 		8B4C329020C7DE3F008B315D /* ColorfulWoodAlert */ = {
 			isa = PBXGroup;
 			children = (
-				8B4C329120C7DE3F008B315D /* ColorfulWoodAlert.m */,
 				8B4C329220C7DE3F008B315D /* ColorfulWoodAlert.h */,
+				8B4C329120C7DE3F008B315D /* ColorfulWoodAlert.m */,
 			);
 			path = ColorfulWoodAlert;
 			sourceTree = "<group>";
@@ -150,12 +168,23 @@
 		8B4C329720C7DE68008B315D /* ColorfulWoodTools */ = {
 			isa = PBXGroup;
 			children = (
+				8B1A868521466F5200ED1896 /* ColorfulWoodImage */,
+				8B4F7787212E45E200836B74 /* ColorfulWoodPhone */,
 				8B4C328520C7DE3F008B315D /* ColorfulWoodMultiDelegate */,
 				8B4C328820C7DE3F008B315D /* ColorfulWoodSelectPhoto */,
 				8B4C328D20C7DE3F008B315D /* ColorfulWoodCheckArray */,
 				8B4C329020C7DE3F008B315D /* ColorfulWoodAlert */,
 			);
 			path = ColorfulWoodTools;
+			sourceTree = "<group>";
+		};
+		8B4F7787212E45E200836B74 /* ColorfulWoodPhone */ = {
+			isa = PBXGroup;
+			children = (
+				8B4F7788212E463600836B74 /* ColorfulWoodPhoneCall.h */,
+				8B4F7789212E463600836B74 /* ColorfulWoodPhoneCall.m */,
+			);
+			path = ColorfulWoodPhone;
 			sourceTree = "<group>";
 		};
 		D8D6BBA0EBF6F71A2B2F8D37 /* Pods */ = {
@@ -226,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4C327B20C7DDE7008B315D /* LaunchScreen.storyboard in Resources */,
+				8B4F778C212E4B0A00836B74 /* ColorfulWoodTools.podspec in Resources */,
 				8B4C327820C7DDE7008B315D /* Assets.xcassets in Resources */,
 				8B4C327620C7DDE4008B315D /* Main.storyboard in Resources */,
 			);
@@ -259,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1A86882146701100ED1896 /* UIImage+ColorfulWood.m in Sources */,
 				8B4C329420C7DE4C008B315D /* ColorfulWoodSelectPhoto.m in Sources */,
 				8B4C327320C7DDE4008B315D /* ViewController.m in Sources */,
 				8B4C329620C7DE4C008B315D /* ColorfulWoodAlert.m in Sources */,
@@ -266,6 +297,7 @@
 				8B4C329520C7DE4C008B315D /* ColorfulWoodCheckArray.m in Sources */,
 				8B4C327020C7DDE4008B315D /* AppDelegate.m in Sources */,
 				8B4C329320C7DE4C008B315D /* ColorfulWoodMultiDelegate.m in Sources */,
+				8B4F778A212E463600836B74 /* ColorfulWoodPhoneCall.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +441,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SN9TJYA97;
 				INFOPLIST_FILE = ColorfulWoodTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8SN9TJYA97;
 				INFOPLIST_FILE = ColorfulWoodTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

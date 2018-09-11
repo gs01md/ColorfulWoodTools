@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ColorfulWoodTools"
-  s.version      = "1.0.13"
+  s.version      = "1.0.15"
   s.summary      = "tools for ios."
 
   s.homepage     = "https://github.com/gs01md"
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/**/*"
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
 
   s.frameworks   = 'Foundation'
   s.frameworks   = 'UIKit'

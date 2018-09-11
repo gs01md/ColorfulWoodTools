@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "ColorfulWoodMultiDelegate.h"
+#import "ColorfulWoodPhoneCall.h"
+#import "ColorfulWoodSelectPhoto.h"
 
 @interface ViewController (){
 
@@ -46,6 +48,9 @@
 
     NSLog(@"");
 
+    //[ColorfulWoodPhoneCall interface_callPhone:@""];
+
+    
 }
 
 
@@ -55,6 +60,8 @@
 
 
 - (IBAction)fssssss:(id)sender {
+
+    [[[ColorfulWoodSelectPhoto alloc] initWithController:self] interface_show];
 
     [dele interface_compact];
     NSLog(@"");
