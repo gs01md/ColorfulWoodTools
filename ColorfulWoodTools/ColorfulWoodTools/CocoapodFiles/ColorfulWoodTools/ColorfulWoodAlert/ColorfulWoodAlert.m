@@ -29,15 +29,18 @@
     [ColorfulWoodAlert hidden];
     
     MBProgressHUD * hud = [MBProgressHUD showHUDAddedTo:ColorfulWoodAlertKeyWindow animated:YES];
+    hud.bezelView.backgroundColor = [UIColor blackColor];
+    hud.contentColor = [UIColor whiteColor];
     hud.mode = MBProgressHUDModeText;
     
     if (title) {
         
-        hud.labelText = title;
+        hud.label.text = title;
     }
     
     
-    [hud hide:YES afterDelay:delay];
+    //[hud hide:YES afterDelay:delay];
+    [hud hideAnimated:YES afterDelay:delay];
     
 }
 
@@ -53,13 +56,14 @@
     
     if (title) {
         
-        hud.labelText = title;
+        hud.label.text = title;
     }
 }
 
 + (void) hidden{
     
-    [MBProgressHUD hideAllHUDsForView:ColorfulWoodAlertKeyWindow animated:YES];
+    //[MBProgressHUD hideAllHUDsForView:ColorfulWoodAlertKeyWindow animated:YES];
+    [MBProgressHUD hideHUDForView:ColorfulWoodAlertKeyWindow animated:YES];
 }
 
 @end

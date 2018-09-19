@@ -10,6 +10,7 @@
 #import "ColorfulWoodMultiDelegate.h"
 #import "ColorfulWoodPhoneCall.h"
 #import "ColorfulWoodSelectPhoto.h"
+#import "ColorfulWoodAlert.h"
 
 @interface ViewController (){
 
@@ -60,6 +61,8 @@
 
 
 - (IBAction)fssssss:(id)sender {
+
+    [ColorfulWoodAlert showAlertAutoHideWithTitle:@"请输入正确的手机号码" afterDelay:2.];
 
     [[[ColorfulWoodSelectPhoto alloc] initWithController:self] interface_show];
 
