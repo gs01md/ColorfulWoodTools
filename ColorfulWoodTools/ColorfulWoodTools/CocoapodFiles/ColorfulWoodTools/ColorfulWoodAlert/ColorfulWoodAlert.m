@@ -37,6 +37,7 @@
     if (title) {
         
         hud.detailsLabel.text = title;
+        hud.detailsLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:15.];
     }
     
     
@@ -58,6 +59,56 @@
     if (title) {
         
         hud.detailsLabel.text = title;
+        hud.detailsLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:15.];
+    }
+}
+
++ (void) showAlertAutoHideWithTitle:(NSString*)title afterDelay:(NSTimeInterval)delay font:(UIFont*)font{
+
+    [ColorfulWoodAlert hidden];
+
+    MBProgressHUD * hud = [MBProgressHUD showHUDAddedTo:ColorfulWoodAlertKeyWindow animated:YES];
+    hud.bezelView.backgroundColor = [UIColor blackColor];
+    hud.contentColor = [UIColor whiteColor];
+    hud.mode = MBProgressHUDModeText;
+
+    if (title) {
+
+        hud.detailsLabel.text = title;
+
+        if (font) {
+            hud.detailsLabel.font = font;
+        } else {
+            hud.detailsLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:15.];
+        }
+
+    }
+
+
+    //[hud hide:YES afterDelay:delay];
+    [hud hideAnimated:YES afterDelay:delay];
+
+}
+
+/**
+ * 隐藏需要调用 + (void) hidden
+ */
++ (void) showAlertWithTitle:(NSString*)title font:(UIFont*)font{
+
+    [ColorfulWoodAlert hidden];
+
+    MBProgressHUD * hud = [MBProgressHUD showHUDAddedTo:ColorfulWoodAlertKeyWindow animated:YES];
+    hud.mode = MBProgressHUDModeIndeterminate;
+
+    if (title) {
+
+        hud.detailsLabel.text = title;
+        
+        if (font) {
+            hud.detailsLabel.font = font;
+        } else {
+            hud.detailsLabel.font = [UIFont fontWithName:@"PingFangSC-Regular" size:15.];
+        }
     }
 }
 

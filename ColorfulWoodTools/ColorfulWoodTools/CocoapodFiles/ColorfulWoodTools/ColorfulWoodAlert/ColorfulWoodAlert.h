@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface ColorfulWoodAlert : NSObject
 /**
@@ -25,5 +26,12 @@
 + (void) showAlertAutoHideWithTitle:(NSString*)title afterDelay:(NSTimeInterval)delay;
 
 + (void) hidden;
+
++ (void) showAlertAutoHideWithTitle:(NSString*)title afterDelay:(NSTimeInterval)delay font:(UIFont*)font;
+
+/**
+ * 隐藏需要调用 + (void) hidden
+ */
++ (void) showAlertWithTitle:(NSString*)title font:(UIFont*)font;
 
 @end
