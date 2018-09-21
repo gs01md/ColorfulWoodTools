@@ -18,7 +18,8 @@
     [ColorfulWoodAlert hidden];
     
     MBProgressHUD * hud = [MBProgressHUD showHUDAddedTo:ColorfulWoodAlertKeyWindow animated:YES];
-    
+    hud.bezelView.backgroundColor = [UIColor blackColor];
+    hud.contentColor = [UIColor whiteColor];
     hud.mode = MBProgressHUDModeIndeterminate;
     
 }
@@ -35,7 +36,7 @@
     
     if (title) {
         
-        hud.label.text = title;
+        hud.detailsLabel.text = title;
     }
     
     
@@ -56,7 +57,7 @@
     
     if (title) {
         
-        hud.label.text = title;
+        hud.detailsLabel.text = title;
     }
 }
 
