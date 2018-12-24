@@ -5,5 +5,8 @@ inhibit_all_warnings!
 target 'ColorfulWoodTools' do
 
     pod 'MBProgressHUD'
+    pod 'Masonry'
+    pod 'SDWebImage'
+    pod 'ColorfulWoodNavigationBar'
 
 end

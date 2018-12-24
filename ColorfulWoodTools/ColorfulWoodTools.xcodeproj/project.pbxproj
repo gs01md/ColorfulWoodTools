@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8B1A86882146701100ED1896 /* UIImage+ColorfulWood.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A86872146701100ED1896 /* UIImage+ColorfulWood.m */; };
+		8B1C741E21D0C6560042E493 /* ColorfulWoodImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C741D21D0C6560042E493 /* ColorfulWoodImageBrowser.m */; };
+		8B1C742121D0CB830042E493 /* CWCellImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C742021D0CB830042E493 /* CWCellImageBrowser.m */; };
 		8B4C327020C7DDE4008B315D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C326F20C7DDE4008B315D /* AppDelegate.m */; };
 		8B4C327320C7DDE4008B315D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4C327220C7DDE4008B315D /* ViewController.m */; };
 		8B4C327620C7DDE4008B315D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4C327420C7DDE4008B315D /* Main.storyboard */; };
@@ -28,6 +30,10 @@
 		7384413E09759A78182DE4CF /* libPods-ColorfulWoodTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColorfulWoodTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1A86862146701100ED1896 /* UIImage+ColorfulWood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorfulWood.h"; sourceTree = "<group>"; };
 		8B1A86872146701100ED1896 /* UIImage+ColorfulWood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorfulWood.m"; sourceTree = "<group>"; };
+		8B1C741C21D0C6560042E493 /* ColorfulWoodImageBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorfulWoodImageBrowser.h; sourceTree = "<group>"; };
+		8B1C741D21D0C6560042E493 /* ColorfulWoodImageBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorfulWoodImageBrowser.m; sourceTree = "<group>"; };
+		8B1C741F21D0CB830042E493 /* CWCellImageBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWCellImageBrowser.h; sourceTree = "<group>"; };
+		8B1C742021D0CB830042E493 /* CWCellImageBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWCellImageBrowser.m; sourceTree = "<group>"; };
 		8B4C326B20C7DDE4008B315D /* ColorfulWoodTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfulWoodTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4C326E20C7DDE4008B315D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B4C326F20C7DDE4008B315D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +87,33 @@
 				8B1A86872146701100ED1896 /* UIImage+ColorfulWood.m */,
 			);
 			path = ColorfulWoodImage;
+			sourceTree = "<group>";
+		};
+		8B1C741921D0C5A00042E493 /* ColorfulWoodImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C741B21D0C5FB0042E493 /* View */,
+				8B1C741A21D0C5F30042E493 /* Controller */,
+			);
+			path = ColorfulWoodImageBrowser;
+			sourceTree = "<group>";
+		};
+		8B1C741A21D0C5F30042E493 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C741C21D0C6560042E493 /* ColorfulWoodImageBrowser.h */,
+				8B1C741D21D0C6560042E493 /* ColorfulWoodImageBrowser.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8B1C741B21D0C5FB0042E493 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C741F21D0CB830042E493 /* CWCellImageBrowser.h */,
+				8B1C742021D0CB830042E493 /* CWCellImageBrowser.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8B4C326220C7DDE4008B315D = {
@@ -168,6 +201,7 @@
 		8B4C329720C7DE68008B315D /* ColorfulWoodTools */ = {
 			isa = PBXGroup;
 			children = (
+				8B1C741921D0C5A00042E493 /* ColorfulWoodImageBrowser */,
 				8B1A868521466F5200ED1896 /* ColorfulWoodImage */,
 				8B4F7787212E45E200836B74 /* ColorfulWoodPhone */,
 				8B4C328520C7DE3F008B315D /* ColorfulWoodMultiDelegate */,
@@ -207,6 +241,7 @@
 				8B4C326720C7DDE4008B315D /* Sources */,
 				8B4C326820C7DDE4008B315D /* Frameworks */,
 				8B4C326920C7DDE4008B315D /* Resources */,
+				BA8A91E4AB4FFB4C576FC749 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +299,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		BA8A91E4AB4FFB4C576FC749 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorfulWoodTools/Pods-ColorfulWoodTools-resources.sh",
+				"${PODS_ROOT}/ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/CocoapodFiles/CWNBBundle/CWNBBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CWNBBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorfulWoodTools/Pods-ColorfulWoodTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E5BE35E065AFA1DBF078235A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,9 +350,11 @@
 				8B4C329420C7DE4C008B315D /* ColorfulWoodSelectPhoto.m in Sources */,
 				8B4C327320C7DDE4008B315D /* ViewController.m in Sources */,
 				8B4C329620C7DE4C008B315D /* ColorfulWoodAlert.m in Sources */,
+				8B1C742121D0CB830042E493 /* CWCellImageBrowser.m in Sources */,
 				8B4C327E20C7DDE7008B315D /* main.m in Sources */,
 				8B4C329520C7DE4C008B315D /* ColorfulWoodCheckArray.m in Sources */,
 				8B4C327020C7DDE4008B315D /* AppDelegate.m in Sources */,
+				8B1C741E21D0C6560042E493 /* ColorfulWoodImageBrowser.m in Sources */,
 				8B4C329320C7DE4C008B315D /* ColorfulWoodMultiDelegate.m in Sources */,
 				8B4F778A212E463600836B74 /* ColorfulWoodPhoneCall.m in Sources */,
 			);

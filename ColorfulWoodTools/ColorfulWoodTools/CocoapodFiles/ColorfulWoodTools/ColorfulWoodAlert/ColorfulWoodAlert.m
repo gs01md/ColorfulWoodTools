@@ -9,7 +9,9 @@
 #import "ColorfulWoodAlert.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 
-#define ColorfulWoodAlertKeyWindow [UIApplication sharedApplication].keyWindow
+//#define ColorfulWoodAlertKeyWindow [UIApplication sharedApplication].keyWindow
+#define ColorfulWoodAlertKeyWindow [[[UIApplication sharedApplication] delegate] window]
+
 
 @implementation ColorfulWoodAlert
 
