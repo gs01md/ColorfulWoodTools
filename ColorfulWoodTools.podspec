@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ColorfulWoodTools"
-  s.version      = "1.0.21"
+  s.version      = "1.0.22"
   s.summary      = "tools for ios."
 
   s.homepage     = "https://github.com/gs01md"
@@ -23,6 +23,8 @@ Pod::Spec.new do |s|
 
   s.dependency   'MBProgressHUD'
   s.dependency   'Masonry'
+  s.dependency   'SDWebImage'
+  s.dependency   'ColorfulWoodNavigationBar'
 
 
 end
