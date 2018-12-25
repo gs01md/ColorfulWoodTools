@@ -7,177 +7,304 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E528D890E3B32D53D963CE1417BA4D8 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */; };
-		2A76DB3CD21C569626495DE7D69D7B0C /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DF25C7F026FA8843A9D4A7E7E8959D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
-		535C3BD688BA2CDEC5DAE361DDF5D7B0 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6702C8B678D52CFE703762D4D73CE58B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */; };
-		7AD058A2B4F970D73967CFC6EB66E86D /* Pods-TestUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8890A49C264A36CAB33AF69A6EF761F /* Pods-TestUI-dummy.m */; };
-		C62CF850237DB4D6338E30472245FF6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */; };
+		151558F4FF9143AC430D418A5BA17363 /* UIImage+ColorfulWood.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF43D9CA8E83EE55ABE61A374E8D192 /* UIImage+ColorfulWood.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		304AED8C0A6000F5E2B5860F3010AD50 /* ColorfulWoodMultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7BCB1D282CD7BE6CB6FEF7EB99442B /* ColorfulWoodMultiDelegate.m */; };
+		41C57AECE9105BDD47AC688E3609E2FF /* ColorfulWoodTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CAF3440DFBF51BFC8CC33AB4F9A96D /* ColorfulWoodTools-dummy.m */; };
+		483C4BA174216D9CD50DF93217EB09F0 /* ColorfulWoodSelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B20294CE9E91ED42A40BD81DCF746E /* ColorfulWoodSelectPhoto.m */; };
+		586ED7B77ADD46E999C45F6DFD628652 /* ColorfulWoodCheckArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCE8A4ABC9CCACFE2F23721BFDAD08D /* ColorfulWoodCheckArray.m */; };
+		5C7104488DC2B290702A0F6EF7537E21 /* ColorfulWoodAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C915B78BA698F24A0396E521173C4 /* ColorfulWoodAlert.m */; };
+		5F0B45592E2C44B16566B28DC7E9F701 /* ColorfulWoodCheckArray.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF0A92C8E78D0B7845196BD989D4EBA /* ColorfulWoodCheckArray.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F33C44E15A4F2AEF56A7F2506149807 /* UIImage+ColorfulWood.m in Sources */ = {isa = PBXBuildFile; fileRef = 5903337E6AAB92C0B394CA72921379A8 /* UIImage+ColorfulWood.m */; };
+		6748F234749735AE1529B1829DE1C662 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83425A9C362224745515E9BEA3378EB3 /* MBProgressHUD-dummy.m */; };
+		7834866611B73529B1FCFA4C4BE32CBC /* ColorfulWoodPhoneCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BCAD598F30EE7860D994E9A091DB3 /* ColorfulWoodPhoneCall.m */; };
+		90BC312869A5640C0BE1C22E0A439CD4 /* Pods-TestUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE817C91ED1769B47C5C466D293FDA /* Pods-TestUI-dummy.m */; };
+		968BF809EABDBAFD3F006220953A7B94 /* ColorfullWoodToolDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6756DD381B430610A7A3CEAB697CD019 /* ColorfullWoodToolDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9B9098A84CF1CFA02B03249D8817B11B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4EC35076990719FAA830454B57093F /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F94AF4515CB18CBC898F081C92F2055 /* ColorfulWoodMultiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E924C882556AD7159F78505FE9EE9F3 /* ColorfulWoodMultiDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A99D6EE4AA7ACD98F1DADC4539798D6E /* ColorfulWoodAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = A92E921BA60078CD7F2094890E518EEC /* ColorfulWoodAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B53E1895448886C7DCE1CC418608DBF1 /* ColorfulWoodPhoneCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FD62C013A49569C2C2973C827046C5 /* ColorfulWoodPhoneCall.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA17B50F0868FABE8E2E69A9B492C095 /* ColorfulWoodTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C93268466998C2C129F7A73A335CAE /* ColorfulWoodTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D09A4A793D62EA0BB535C7313204F596 /* ColorfulWoodSelectPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC7186CFEB55732C756046A219784D6 /* ColorfulWoodSelectPhoto.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5926C6337C92789A6BBAFE4314E96D6 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = BC48908E9593CF272DEC0F8E5A1C9006 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FCEAC2A29AD444DD0F368FF0E0D3DE26 /* PBXContainerItemProxy */ = {
+		58AF94B3DE75E30B29094C22270CE8BE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 175B076ED45EB1A3E40F58BA14036467;
+			remoteGlobalIDString = 76D5996F529C109D50641D6071CE103B;
+			remoteInfo = ColorfulWoodTools;
+		};
+		84B44372AD13EB73A3BEC85AC0F3FC40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18A6553CD192965051B38DEF9885ACD;
+			remoteInfo = MBProgressHUD;
+		};
+		8C8D89638092078F41F3C14D0F5FFF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18A6553CD192965051B38DEF9885ACD;
 			remoteInfo = MBProgressHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		234B0AE34954C067C4BE0EA80C605ABE /* Pods-TestUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestUI-acknowledgements.plist"; sourceTree = "<group>"; };
-		2530E41D4AA391B006922176BB997C81 /* Pods-TestUI-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestUI-frameworks.sh"; sourceTree = "<group>"; };
-		30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		792F0526AC93AEECA1CEC3CFF7F7D862 /* Pods-TestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestUI.release.xcconfig"; sourceTree = "<group>"; };
-		80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		84273A4E54164BB474179BCF091DE7C0 /* Pods-TestUI-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestUI-resources.sh"; sourceTree = "<group>"; };
+		0FF43D9CA8E83EE55ABE61A374E8D192 /* UIImage+ColorfulWood.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ColorfulWood.h"; path = "ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodImage/UIImage+ColorfulWood.h"; sourceTree = "<group>"; };
+		1AC5AE270AA6B8213724EFD78E397CF5 /* ColorfulWoodTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorfulWoodTools.xcconfig; sourceTree = "<group>"; };
+		2538BDDD083E5E27873D518A04EDF3AF /* Pods-TestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestUI.debug.xcconfig"; sourceTree = "<group>"; };
+		35AC0A26AEF06117113B0C6D9F303002 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		45D08A25CF1AF960851D0952D2CB4587 /* Pods-TestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestUI.release.xcconfig"; sourceTree = "<group>"; };
+		465BCAD598F30EE7860D994E9A091DB3 /* ColorfulWoodPhoneCall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ColorfulWoodPhoneCall.m; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodPhone/ColorfulWoodPhoneCall.m; sourceTree = "<group>"; };
+		4A4EC35076990719FAA830454B57093F /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4B93CB7F513CFCC0DCC3A9D9E5D96561 /* ColorfulWoodTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorfulWoodTools-prefix.pch"; sourceTree = "<group>"; };
+		4E924C882556AD7159F78505FE9EE9F3 /* ColorfulWoodMultiDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorfulWoodMultiDelegate.h; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodMultiDelegate/ColorfulWoodMultiDelegate.h; sourceTree = "<group>"; };
+		510B934F44E65F2844ABE5482F2A603E /* libPods-TestUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestUI.a"; path = "libPods-TestUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5903337E6AAB92C0B394CA72921379A8 /* UIImage+ColorfulWood.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ColorfulWood.m"; path = "ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodImage/UIImage+ColorfulWood.m"; sourceTree = "<group>"; };
+		5CCE8A4ABC9CCACFE2F23721BFDAD08D /* ColorfulWoodCheckArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ColorfulWoodCheckArray.m; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodCheckArray/ColorfulWoodCheckArray.m; sourceTree = "<group>"; };
+		6756DD381B430610A7A3CEAB697CD019 /* ColorfullWoodToolDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorfullWoodToolDefine.h; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfullWoodToolDefine.h; sourceTree = "<group>"; };
+		68C93268466998C2C129F7A73A335CAE /* ColorfulWoodTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorfulWoodTools.h; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools.h; sourceTree = "<group>"; };
+		7CFE817C91ED1769B47C5C466D293FDA /* Pods-TestUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestUI-dummy.m"; sourceTree = "<group>"; };
+		80FD62C013A49569C2C2973C827046C5 /* ColorfulWoodPhoneCall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorfulWoodPhoneCall.h; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodPhone/ColorfulWoodPhoneCall.h; sourceTree = "<group>"; };
+		83425A9C362224745515E9BEA3378EB3 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		913C915B78BA698F24A0396E521173C4 /* ColorfulWoodAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ColorfulWoodAlert.m; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodAlert/ColorfulWoodAlert.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9877FE1D7B6AA105D8724A7FE603A097 /* Pods-TestUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestUI-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A899CAF06E39C28635BC1577FF3C641C /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AABE45081325970398177350B3365B5A /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		E108DEF881F8C70B2C14AEF8D9C5A9EE /* libPods-TestUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestUI.a"; path = "libPods-TestUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		F8890A49C264A36CAB33AF69A6EF761F /* Pods-TestUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestUI-dummy.m"; sourceTree = "<group>"; };
-		F9E040E212B7D8B03E662B78FC7DEEF0 /* Pods-TestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestUI.debug.xcconfig"; sourceTree = "<group>"; };
+		A2CAF3440DFBF51BFC8CC33AB4F9A96D /* ColorfulWoodTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorfulWoodTools-dummy.m"; sourceTree = "<group>"; };
+		A88FCD64B5E39AE80944268606A4FF54 /* Pods-TestUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestUI-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A92E921BA60078CD7F2094890E518EEC /* ColorfulWoodAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorfulWoodAlert.h; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodAlert/ColorfulWoodAlert.h; sourceTree = "<group>"; };
+		B3FBF29C1688D20CCBDF21BE5505D163 /* libMBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBProgressHUD.a; path = libMBProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9311E980BBCB3B51B058BF0F6DD6ABE /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		BAC7186CFEB55732C756046A219784D6 /* ColorfulWoodSelectPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorfulWoodSelectPhoto.h; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodSelectPhoto/ColorfulWoodSelectPhoto.h; sourceTree = "<group>"; };
+		BC48908E9593CF272DEC0F8E5A1C9006 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C89748821F715F9A52B88BA3173E82E5 /* libColorfulWoodTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libColorfulWoodTools.a; path = libColorfulWoodTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B20294CE9E91ED42A40BD81DCF746E /* ColorfulWoodSelectPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ColorfulWoodSelectPhoto.m; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodSelectPhoto/ColorfulWoodSelectPhoto.m; sourceTree = "<group>"; };
+		DA7BCB1D282CD7BE6CB6FEF7EB99442B /* ColorfulWoodMultiDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ColorfulWoodMultiDelegate.m; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodMultiDelegate/ColorfulWoodMultiDelegate.m; sourceTree = "<group>"; };
+		DA8522BE37E96644C572BF53F0DE5BEE /* Pods-TestUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCF0A92C8E78D0B7845196BD989D4EBA /* ColorfulWoodCheckArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorfulWoodCheckArray.h; path = ColorfulWoodTools/ColorfulWoodTools/CocoapodFiles/ColorfulWoodTools/ColorfulWoodCheckArray/ColorfulWoodCheckArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		12070984FA8985EF77A932BEC1CF2A5D /* Frameworks */ = {
+		13B76E496058E8812241140C88587307 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6702C8B678D52CFE703762D4D73CE58B /* CoreGraphics.framework in Frameworks */,
-				C62CF850237DB4D6338E30472245FF6F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B694497656B7D61E257618CD0C3358FC /* Frameworks */ = {
+		B4D8A8B85A56E2217ACFF53D0520323B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DF25C7F026FA8843A9D4A7E7E8959D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB21454ABC4BB37814D6077C5491F2A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		077EB30DB6AD0F301EC92B8EAEA22722 /* MBProgressHUD */ = {
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1E67CBBACD85CE50C19C6320AAD17088 /* MBProgressHUD.h */,
-				30858F8F84BD7A73D99478028C4C0E9A /* MBProgressHUD.m */,
-				2848C0E8056CB6EE547CD6E0C1780766 /* Support Files */,
-			);
-			name = MBProgressHUD;
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		0F064D04E379CE8E07B6BDB97C593316 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				E7512E09FD626FC8CE110467EAD517EA /* CoreGraphics.framework */,
-				A635401944412E396EA69FF81D70EAD8 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2848C0E8056CB6EE547CD6E0C1780766 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */,
-				9895137673E5059F732A42A1E2A66E0B /* MBProgressHUD-dummy.m */,
-				AABE45081325970398177350B3365B5A /* MBProgressHUD-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0F064D04E379CE8E07B6BDB97C593316 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		50E36E07620DC909A5B32A17B9DDCD91 /* Pods-TestUI */ = {
+		3763C2FF1EC467B5EE3A45B42D1744C1 /* Pods-TestUI */ = {
 			isa = PBXGroup;
 			children = (
-				9877FE1D7B6AA105D8724A7FE603A097 /* Pods-TestUI-acknowledgements.markdown */,
-				234B0AE34954C067C4BE0EA80C605ABE /* Pods-TestUI-acknowledgements.plist */,
-				F8890A49C264A36CAB33AF69A6EF761F /* Pods-TestUI-dummy.m */,
-				2530E41D4AA391B006922176BB997C81 /* Pods-TestUI-frameworks.sh */,
-				84273A4E54164BB474179BCF091DE7C0 /* Pods-TestUI-resources.sh */,
-				F9E040E212B7D8B03E662B78FC7DEEF0 /* Pods-TestUI.debug.xcconfig */,
-				792F0526AC93AEECA1CEC3CFF7F7D862 /* Pods-TestUI.release.xcconfig */,
+				A88FCD64B5E39AE80944268606A4FF54 /* Pods-TestUI-acknowledgements.markdown */,
+				DA8522BE37E96644C572BF53F0DE5BEE /* Pods-TestUI-acknowledgements.plist */,
+				7CFE817C91ED1769B47C5C466D293FDA /* Pods-TestUI-dummy.m */,
+				2538BDDD083E5E27873D518A04EDF3AF /* Pods-TestUI.debug.xcconfig */,
+				45D08A25CF1AF960851D0952D2CB4587 /* Pods-TestUI.release.xcconfig */,
 			);
 			name = "Pods-TestUI";
 			path = "Target Support Files/Pods-TestUI";
 			sourceTree = "<group>";
 		};
-		530863D00EA0F348977823D62ECEE703 /* Targets Support Files */ = {
+		42B8008099612BA4CF746AECF31DF1DA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				50E36E07620DC909A5B32A17B9DDCD91 /* Pods-TestUI */,
+				35AC0A26AEF06117113B0C6D9F303002 /* MBProgressHUD.xcconfig */,
+				83425A9C362224745515E9BEA3378EB3 /* MBProgressHUD-dummy.m */,
+				B9311E980BBCB3B51B058BF0F6DD6ABE /* MBProgressHUD-prefix.pch */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
-		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
+		5045EB97F8D240433860610B7CF3F180 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				077EB30DB6AD0F301EC92B8EAEA22722 /* MBProgressHUD */,
+				1AC5AE270AA6B8213724EFD78E397CF5 /* ColorfulWoodTools.xcconfig */,
+				A2CAF3440DFBF51BFC8CC33AB4F9A96D /* ColorfulWoodTools-dummy.m */,
+				4B93CB7F513CFCC0DCC3A9D9E5D96561 /* ColorfulWoodTools-prefix.pch */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/ColorfulWoodTools";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				5836A44A75C427EBF4739C55E2315758 /* Pods */,
-				F65E7F8844FF5A5A158B295CB7046FD2 /* Products */,
-				530863D00EA0F348977823D62ECEE703 /* Targets Support Files */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				D26D55BFB02727C4A9DDC8059948C9A5 /* Pods */,
+				DB6D819C07CCFDD7DCA1BFC07CA2D40D /* Products */,
+				F586DFFF57B0984F4387331CC4583842 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		F65E7F8844FF5A5A158B295CB7046FD2 /* Products */ = {
+		ADA41EA8EE18F6DC4CD80058F96E4C7F /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				A899CAF06E39C28635BC1577FF3C641C /* libMBProgressHUD.a */,
-				E108DEF881F8C70B2C14AEF8D9C5A9EE /* libPods-TestUI.a */,
+				BC48908E9593CF272DEC0F8E5A1C9006 /* MBProgressHUD.h */,
+				4A4EC35076990719FAA830454B57093F /* MBProgressHUD.m */,
+				42B8008099612BA4CF746AECF31DF1DA /* Support Files */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		BEA0F8FE94B9825DAB13863A9D665C67 /* ColorfulWoodTools */ = {
+			isa = PBXGroup;
+			children = (
+				6756DD381B430610A7A3CEAB697CD019 /* ColorfullWoodToolDefine.h */,
+				A92E921BA60078CD7F2094890E518EEC /* ColorfulWoodAlert.h */,
+				913C915B78BA698F24A0396E521173C4 /* ColorfulWoodAlert.m */,
+				DCF0A92C8E78D0B7845196BD989D4EBA /* ColorfulWoodCheckArray.h */,
+				5CCE8A4ABC9CCACFE2F23721BFDAD08D /* ColorfulWoodCheckArray.m */,
+				4E924C882556AD7159F78505FE9EE9F3 /* ColorfulWoodMultiDelegate.h */,
+				DA7BCB1D282CD7BE6CB6FEF7EB99442B /* ColorfulWoodMultiDelegate.m */,
+				80FD62C013A49569C2C2973C827046C5 /* ColorfulWoodPhoneCall.h */,
+				465BCAD598F30EE7860D994E9A091DB3 /* ColorfulWoodPhoneCall.m */,
+				BAC7186CFEB55732C756046A219784D6 /* ColorfulWoodSelectPhoto.h */,
+				D1B20294CE9E91ED42A40BD81DCF746E /* ColorfulWoodSelectPhoto.m */,
+				68C93268466998C2C129F7A73A335CAE /* ColorfulWoodTools.h */,
+				0FF43D9CA8E83EE55ABE61A374E8D192 /* UIImage+ColorfulWood.h */,
+				5903337E6AAB92C0B394CA72921379A8 /* UIImage+ColorfulWood.m */,
+				5045EB97F8D240433860610B7CF3F180 /* Support Files */,
+			);
+			name = ColorfulWoodTools;
+			path = ColorfulWoodTools;
+			sourceTree = "<group>";
+		};
+		D26D55BFB02727C4A9DDC8059948C9A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0F8FE94B9825DAB13863A9D665C67 /* ColorfulWoodTools */,
+				ADA41EA8EE18F6DC4CD80058F96E4C7F /* MBProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB6D819C07CCFDD7DCA1BFC07CA2D40D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C89748821F715F9A52B88BA3173E82E5 /* libColorfulWoodTools.a */,
+				B3FBF29C1688D20CCBDF21BE5505D163 /* libMBProgressHUD.a */,
+				510B934F44E65F2844ABE5482F2A603E /* libPods-TestUI.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F586DFFF57B0984F4387331CC4583842 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3763C2FF1EC467B5EE3A45B42D1744C1 /* Pods-TestUI */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EFC33D369E9A80BFCC07EAB513251186 /* Headers */ = {
+		3C89D3A7DDEE5D104314C25F9384280D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A76DB3CD21C569626495DE7D69D7B0C /* MBProgressHUD.h in Headers */,
+				D5926C6337C92789A6BBAFE4314E96D6 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		407D5F3254D567BA22160A6E3234942D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968BF809EABDBAFD3F006220953A7B94 /* ColorfullWoodToolDefine.h in Headers */,
+				A99D6EE4AA7ACD98F1DADC4539798D6E /* ColorfulWoodAlert.h in Headers */,
+				5F0B45592E2C44B16566B28DC7E9F701 /* ColorfulWoodCheckArray.h in Headers */,
+				9F94AF4515CB18CBC898F081C92F2055 /* ColorfulWoodMultiDelegate.h in Headers */,
+				B53E1895448886C7DCE1CC418608DBF1 /* ColorfulWoodPhoneCall.h in Headers */,
+				D09A4A793D62EA0BB535C7313204F596 /* ColorfulWoodSelectPhoto.h in Headers */,
+				BA17B50F0868FABE8E2E69A9B492C095 /* ColorfulWoodTools.h in Headers */,
+				151558F4FF9143AC430D418A5BA17363 /* UIImage+ColorfulWood.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52920C89175281BC52A9B018CE2BEE44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */ = {
+		58D92C43620B32CA8EBB9B950BBCDEB6 /* Pods-TestUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C66CB3E04875BC1C255326C7ADB2D78 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildConfigurationList = 9EF6FAA01A29CFA8AA9F29F8BA5433C1 /* Build configuration list for PBXNativeTarget "Pods-TestUI" */;
 			buildPhases = (
-				FED59DE88F6C855E8E4E64782275A4C6 /* Sources */,
-				12070984FA8985EF77A932BEC1CF2A5D /* Frameworks */,
-				EFC33D369E9A80BFCC07EAB513251186 /* Headers */,
+				52920C89175281BC52A9B018CE2BEE44 /* Headers */,
+				4299407C03FE8632F5A41B3B489A0478 /* Sources */,
+				EB21454ABC4BB37814D6077C5491F2A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547048D996FEC224E5635C6E04927574 /* PBXTargetDependency */,
+				64DEFE432638990555E86EE3E86C6DAD /* PBXTargetDependency */,
+			);
+			name = "Pods-TestUI";
+			productName = "Pods-TestUI";
+			productReference = 510B934F44E65F2844ABE5482F2A603E /* libPods-TestUI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76D5996F529C109D50641D6071CE103B /* ColorfulWoodTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A37A9A011E56A4697FEEC0EE8BCB3E42 /* Build configuration list for PBXNativeTarget "ColorfulWoodTools" */;
+			buildPhases = (
+				407D5F3254D567BA22160A6E3234942D /* Headers */,
+				B5A9231C33CC21F9BE7A5E7A02536173 /* Sources */,
+				13B76E496058E8812241140C88587307 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E64B00439D694A805E86DFD572236F2 /* PBXTargetDependency */,
+			);
+			name = ColorfulWoodTools;
+			productName = ColorfulWoodTools;
+			productReference = C89748821F715F9A52B88BA3173E82E5 /* libColorfulWoodTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B18A6553CD192965051B38DEF9885ACD /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D8A299CAF44C5853DCBAE3E60FFC1FC /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				3C89D3A7DDEE5D104314C25F9384280D /* Headers */,
+				57201574C5CD8E56986CE863C6AA86C7 /* Sources */,
+				B4D8A8B85A56E2217ACFF53D0520323B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,24 +312,7 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = A899CAF06E39C28635BC1577FF3C641C /* libMBProgressHUD.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		19D3280518912EC3718B402850F45691 /* Pods-TestUI */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4272F5337781BBED20D792DC7643237 /* Build configuration list for PBXNativeTarget "Pods-TestUI" */;
-			buildPhases = (
-				6936C38F8ABC0A6131FC9C17E1E9BCEB /* Sources */,
-				B694497656B7D61E257618CD0C3358FC /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2FE0F86226EE2E156446F78D1F8D6A6C /* PBXTargetDependency */,
-			);
-			name = "Pods-TestUI";
-			productName = "Pods-TestUI";
-			productReference = E108DEF881F8C70B2C14AEF8D9C5A9EE /* libPods-TestUI.a */;
+			productReference = B3FBF29C1688D20CCBDF21BE5505D163 /* libMBProgressHUD.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -211,8 +321,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -222,221 +332,334 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = F65E7F8844FF5A5A158B295CB7046FD2 /* Products */;
+			productRefGroup = DB6D819C07CCFDD7DCA1BFC07CA2D40D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */,
-				19D3280518912EC3718B402850F45691 /* Pods-TestUI */,
+				76D5996F529C109D50641D6071CE103B /* ColorfulWoodTools */,
+				B18A6553CD192965051B38DEF9885ACD /* MBProgressHUD */,
+				58D92C43620B32CA8EBB9B950BBCDEB6 /* Pods-TestUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6936C38F8ABC0A6131FC9C17E1E9BCEB /* Sources */ = {
+		4299407C03FE8632F5A41B3B489A0478 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD058A2B4F970D73967CFC6EB66E86D /* Pods-TestUI-dummy.m in Sources */,
+				90BC312869A5640C0BE1C22E0A439CD4 /* Pods-TestUI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FED59DE88F6C855E8E4E64782275A4C6 /* Sources */ = {
+		57201574C5CD8E56986CE863C6AA86C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E528D890E3B32D53D963CE1417BA4D8 /* MBProgressHUD-dummy.m in Sources */,
-				535C3BD688BA2CDEC5DAE361DDF5D7B0 /* MBProgressHUD.m in Sources */,
+				6748F234749735AE1529B1829DE1C662 /* MBProgressHUD-dummy.m in Sources */,
+				9B9098A84CF1CFA02B03249D8817B11B /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A9231C33CC21F9BE7A5E7A02536173 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C7104488DC2B290702A0F6EF7537E21 /* ColorfulWoodAlert.m in Sources */,
+				586ED7B77ADD46E999C45F6DFD628652 /* ColorfulWoodCheckArray.m in Sources */,
+				304AED8C0A6000F5E2B5860F3010AD50 /* ColorfulWoodMultiDelegate.m in Sources */,
+				7834866611B73529B1FCFA4C4BE32CBC /* ColorfulWoodPhoneCall.m in Sources */,
+				483C4BA174216D9CD50DF93217EB09F0 /* ColorfulWoodSelectPhoto.m in Sources */,
+				41C57AECE9105BDD47AC688E3609E2FF /* ColorfulWoodTools-dummy.m in Sources */,
+				5F33C44E15A4F2AEF56A7F2506149807 /* UIImage+ColorfulWood.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2FE0F86226EE2E156446F78D1F8D6A6C /* PBXTargetDependency */ = {
+		547048D996FEC224E5635C6E04927574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorfulWoodTools;
+			target = 76D5996F529C109D50641D6071CE103B /* ColorfulWoodTools */;
+			targetProxy = 58AF94B3DE75E30B29094C22270CE8BE /* PBXContainerItemProxy */;
+		};
+		64DEFE432638990555E86EE3E86C6DAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			target = 175B076ED45EB1A3E40F58BA14036467 /* MBProgressHUD */;
-			targetProxy = FCEAC2A29AD444DD0F368FF0E0D3DE26 /* PBXContainerItemProxy */;
+			target = B18A6553CD192965051B38DEF9885ACD /* MBProgressHUD */;
+			targetProxy = 84B44372AD13EB73A3BEC85AC0F3FC40 /* PBXContainerItemProxy */;
+		};
+		6E64B00439D694A805E86DFD572236F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = B18A6553CD192965051B38DEF9885ACD /* MBProgressHUD */;
+			targetProxy = 8C8D89638092078F41F3C14D0F5FFF05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+		0571BF5F01520CCC1A7EEC341900C5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC5AE270AA6B8213724EFD78E397CF5 /* ColorfulWoodTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorfulWoodTools/ColorfulWoodTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ColorfulWoodTools;
+				PRODUCT_NAME = ColorfulWoodTools;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0878BE78C84D9F508907C66EEE73ECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AC0A26AEF06117113B0C6D9F303002 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		092BF4AA0593635CFE02476B1609180C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D08A25CF1AF960851D0952D2CB4587 /* Pods-TestUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		511797C06F5F01E984E379184BBF3850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AC0A26AEF06117113B0C6D9F303002 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		0EE755C37B87075ADEAF4323F07FD310 /* Release */ = {
+		8654142013932AAE4177147AC6DD8F15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 792F0526AC93AEECA1CEC3CFF7F7D862 /* Pods-TestUI.release.xcconfig */;
+			baseConfigurationReference = 2538BDDD083E5E27873D518A04EDF3AF /* Pods-TestUI.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		2A9F96963D66FAADED6B02F5E2710C43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9E040E212B7D8B03E662B78FC7DEEF0 /* Pods-TestUI.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		4ECD94EB658408EAB639A8B305F4DA79 /* Debug */ = {
+		F16AF31D53960ED6F0D217A150D50B53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
+			baseConfigurationReference = 1AC5AE270AA6B8213724EFD78E397CF5 /* ColorfulWoodTools.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ColorfulWoodTools/ColorfulWoodTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = ColorfulWoodTools;
+				PRODUCT_NAME = ColorfulWoodTools;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		50578562CB4D9ABA8620420C08C638C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80DB6C08B9B312D2B623E23F6515C0A5 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -444,26 +667,35 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
-				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C66CB3E04875BC1C255326C7ADB2D78 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		6D8A299CAF44C5853DCBAE3E60FFC1FC /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4ECD94EB658408EAB639A8B305F4DA79 /* Debug */,
-				50578562CB4D9ABA8620420C08C638C2 /* Release */,
+				0878BE78C84D9F508907C66EEE73ECD7 /* Debug */,
+				511797C06F5F01E984E379184BBF3850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4272F5337781BBED20D792DC7643237 /* Build configuration list for PBXNativeTarget "Pods-TestUI" */ = {
+		9EF6FAA01A29CFA8AA9F29F8BA5433C1 /* Build configuration list for PBXNativeTarget "Pods-TestUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A9F96963D66FAADED6B02F5E2710C43 /* Debug */,
-				0EE755C37B87075ADEAF4323F07FD310 /* Release */,
+				8654142013932AAE4177147AC6DD8F15 /* Debug */,
+				092BF4AA0593635CFE02476B1609180C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A37A9A011E56A4697FEEC0EE8BCB3E42 /* Build configuration list for PBXNativeTarget "ColorfulWoodTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16AF31D53960ED6F0D217A150D50B53 /* Debug */,
+				0571BF5F01520CCC1A7EEC341900C5D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
