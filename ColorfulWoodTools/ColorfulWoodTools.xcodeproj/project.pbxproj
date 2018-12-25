@@ -241,7 +241,7 @@
 				8B4C326720C7DDE4008B315D /* Sources */,
 				8B4C326820C7DDE4008B315D /* Frameworks */,
 				8B4C326920C7DDE4008B315D /* Resources */,
-				BA8A91E4AB4FFB4C576FC749 /* [CP] Copy Pods Resources */,
+				14A75D9A17F50C532F8347C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,7 +299,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BA8A91E4AB4FFB4C576FC749 /* [CP] Copy Pods Resources */ = {
+		14A75D9A17F50C532F8347C3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,7 +308,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ColorfulWoodTools/Pods-ColorfulWoodTools-resources.sh",
-				"${PODS_ROOT}/ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/CocoapodFiles/CWNBBundle/CWNBBundle.bundle",
+				"${PODS_ROOT}/ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/CWNBBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (

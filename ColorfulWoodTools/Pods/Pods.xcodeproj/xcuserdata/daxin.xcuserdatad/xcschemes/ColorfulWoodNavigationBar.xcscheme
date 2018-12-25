@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A17776644E5E1FCCD5555FAD613A39AB"
+               BlueprintIdentifier = "DC09481C107F786A80806DE63E3BB366"
                BlueprintName = "ColorfulWoodNavigationBar"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libColorfulWoodNavigationBar.a">

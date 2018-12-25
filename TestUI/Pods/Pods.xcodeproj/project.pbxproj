@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		151558F4FF9143AC430D418A5BA17363 /* UIImage+ColorfulWood.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF43D9CA8E83EE55ABE61A374E8D192 /* UIImage+ColorfulWood.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2278848253A27C340D86E7346B953EF5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4EC35076990719FAA830454B57093F /* MBProgressHUD.m */; };
 		304AED8C0A6000F5E2B5860F3010AD50 /* ColorfulWoodMultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA7BCB1D282CD7BE6CB6FEF7EB99442B /* ColorfulWoodMultiDelegate.m */; };
 		41C57AECE9105BDD47AC688E3609E2FF /* ColorfulWoodTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CAF3440DFBF51BFC8CC33AB4F9A96D /* ColorfulWoodTools-dummy.m */; };
 		483C4BA174216D9CD50DF93217EB09F0 /* ColorfulWoodSelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B20294CE9E91ED42A40BD81DCF746E /* ColorfulWoodSelectPhoto.m */; };
@@ -15,11 +16,10 @@
 		5C7104488DC2B290702A0F6EF7537E21 /* ColorfulWoodAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 913C915B78BA698F24A0396E521173C4 /* ColorfulWoodAlert.m */; };
 		5F0B45592E2C44B16566B28DC7E9F701 /* ColorfulWoodCheckArray.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF0A92C8E78D0B7845196BD989D4EBA /* ColorfulWoodCheckArray.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5F33C44E15A4F2AEF56A7F2506149807 /* UIImage+ColorfulWood.m in Sources */ = {isa = PBXBuildFile; fileRef = 5903337E6AAB92C0B394CA72921379A8 /* UIImage+ColorfulWood.m */; };
-		6748F234749735AE1529B1829DE1C662 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83425A9C362224745515E9BEA3378EB3 /* MBProgressHUD-dummy.m */; };
 		7834866611B73529B1FCFA4C4BE32CBC /* ColorfulWoodPhoneCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 465BCAD598F30EE7860D994E9A091DB3 /* ColorfulWoodPhoneCall.m */; };
 		90BC312869A5640C0BE1C22E0A439CD4 /* Pods-TestUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFE817C91ED1769B47C5C466D293FDA /* Pods-TestUI-dummy.m */; };
 		968BF809EABDBAFD3F006220953A7B94 /* ColorfullWoodToolDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 6756DD381B430610A7A3CEAB697CD019 /* ColorfullWoodToolDefine.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9B9098A84CF1CFA02B03249D8817B11B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4EC35076990719FAA830454B57093F /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9F70767C86B6BCC25D609CF59E624EDE /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83425A9C362224745515E9BEA3378EB3 /* MBProgressHUD-dummy.m */; };
 		9F94AF4515CB18CBC898F081C92F2055 /* ColorfulWoodMultiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E924C882556AD7159F78505FE9EE9F3 /* ColorfulWoodMultiDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A99D6EE4AA7ACD98F1DADC4539798D6E /* ColorfulWoodAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = A92E921BA60078CD7F2094890E518EEC /* ColorfulWoodAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B53E1895448886C7DCE1CC418608DBF1 /* ColorfulWoodPhoneCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 80FD62C013A49569C2C2973C827046C5 /* ColorfulWoodPhoneCall.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -303,7 +303,7 @@
 			buildConfigurationList = 6D8A299CAF44C5853DCBAE3E60FFC1FC /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
 				3C89D3A7DDEE5D104314C25F9384280D /* Headers */,
-				57201574C5CD8E56986CE863C6AA86C7 /* Sources */,
+				09A4F2BAE2476CBC0CD0923785F764E4 /* Sources */,
 				B4D8A8B85A56E2217ACFF53D0520323B /* Frameworks */,
 			);
 			buildRules = (
@@ -344,20 +344,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		09A4F2BAE2476CBC0CD0923785F764E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F70767C86B6BCC25D609CF59E624EDE /* MBProgressHUD-dummy.m in Sources */,
+				2278848253A27C340D86E7346B953EF5 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4299407C03FE8632F5A41B3B489A0478 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90BC312869A5640C0BE1C22E0A439CD4 /* Pods-TestUI-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57201574C5CD8E56986CE863C6AA86C7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6748F234749735AE1529B1829DE1C662 /* MBProgressHUD-dummy.m in Sources */,
-				9B9098A84CF1CFA02B03249D8817B11B /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,30 +423,6 @@
 			};
 			name = Release;
 		};
-		0878BE78C84D9F508907C66EEE73ECD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35AC0A26AEF06117113B0C6D9F303002 /* MBProgressHUD.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = MBProgressHUD;
-				PRODUCT_NAME = MBProgressHUD;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		092BF4AA0593635CFE02476B1609180C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45D08A25CF1AF960851D0952D2CB4587 /* Pods-TestUI.release.xcconfig */;
@@ -469,17 +445,16 @@
 			};
 			name = Release;
 		};
-		511797C06F5F01E984E379184BBF3850 /* Release */ = {
+		3FF2A9FB74ABF7F4217E964649075930 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35AC0A26AEF06117113B0C6D9F303002 /* MBProgressHUD.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -575,6 +550,29 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86A2DF5FED169F9FECC66C27D3C15586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AC0A26AEF06117113B0C6D9F303002 /* MBProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -676,8 +674,8 @@
 		6D8A299CAF44C5853DCBAE3E60FFC1FC /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0878BE78C84D9F508907C66EEE73ECD7 /* Debug */,
-				511797C06F5F01E984E379184BBF3850 /* Release */,
+				86A2DF5FED169F9FECC66C27D3C15586 /* Debug */,
+				3FF2A9FB74ABF7F4217E964649075930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

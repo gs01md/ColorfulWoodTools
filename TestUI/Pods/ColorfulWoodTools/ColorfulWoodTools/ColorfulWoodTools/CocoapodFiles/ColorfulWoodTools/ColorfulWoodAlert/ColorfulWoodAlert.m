@@ -9,7 +9,8 @@
 #import "ColorfulWoodAlert.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 
-#define ColorfulWoodAlertKeyWindow [UIApplication sharedApplication].keyWindow
+//#define ColorfulWoodAlertKeyWindow [UIApplication sharedApplication].keyWindow
+#define ColorfulWoodAlertKeyWindow [[[UIApplication sharedApplication] delegate] window]
 
 @implementation ColorfulWoodAlert
 
@@ -18,6 +19,7 @@
     [ColorfulWoodAlert hidden];
     
     MBProgressHUD * hud = [MBProgressHUD showHUDAddedTo:ColorfulWoodAlertKeyWindow animated:YES];
+    hud.backgroundColor = [UIColor redColor];
     hud.bezelView.backgroundColor = [UIColor blackColor];
     hud.contentColor = [UIColor whiteColor];
     hud.mode = MBProgressHUDModeIndeterminate;
@@ -28,7 +30,9 @@
 + (void) showAlertAutoHideWithTitle:(NSString*)title afterDelay:(NSTimeInterval)delay{
     
     [ColorfulWoodAlert hidden];
-    
+
+    UIWindow *window = ColorfulWoodAlertKeyWindow;
+
     MBProgressHUD * hud = [MBProgressHUD showHUDAddedTo:ColorfulWoodAlertKeyWindow animated:YES];
     hud.bezelView.backgroundColor = [UIColor blackColor];
     hud.contentColor = [UIColor whiteColor];

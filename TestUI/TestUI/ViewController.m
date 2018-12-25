@@ -24,7 +24,23 @@ ColorfulWoodSelectPhotoDelegate
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    m_photo = [[ColorfulWoodSelectPhoto alloc] initWithWithView:self];
+    //m_photo = [[ColorfulWoodSelectPhoto alloc] initWithWithView:self];
+
+
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+
+    [super viewWillAppear:animated];
+
+
+    [self performSelector:@selector(test) withObject:nil afterDelay:0.1];
+}
+
+- (void)test{
+    [ColorfulWoodAlert showAlertAutoHideWithTitle:@"sssss" afterDelay:2.];
+    [ColorfulWoodAlert showAlertWithTitle:@"232423"];
+    [ColorfulWoodAlert showAlertWaitingNetwork];
 }
 
 /**
