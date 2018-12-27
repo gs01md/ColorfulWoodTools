@@ -60,7 +60,7 @@ UIScrollViewDelegate
         self.navigationController.navigationBar.hidden = NO;
 
     }
-    
+
     [super viewDidDisappear:animated];
 }
 

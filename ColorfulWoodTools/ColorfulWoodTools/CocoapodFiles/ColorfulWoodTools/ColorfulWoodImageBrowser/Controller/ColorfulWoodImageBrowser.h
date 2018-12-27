@@ -2,6 +2,8 @@
 //  ColorfulWoodImageBrowser.h
 //  ColorfulWoodTools
 //
+//  浏览网络图片，左右滑动切换图片，删除图片
+//
 //  Created by 大新 on 2018/12/24.
 //  Copyright © 2018 ColorfulWood. All rights reserved.
 //
