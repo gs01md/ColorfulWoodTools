@@ -8,14 +8,15 @@
 
 #import "ViewController.h"
 #import <ColorfulWoodTools/ColorfulWoodTools.h>
+#import <ColorfulWoodTools/ColorfulWoodImageBrowser.h>
 
 @interface ViewController ()<
 ColorfulWoodSelectPhotoDelegate
 >{
-    
-    ColorfulWoodSelectPhoto * m_photo;
+
 }
 
+@property(nonatomic, strong) ColorfulWoodSelectPhoto *m_photo;
 
 @end
 
@@ -24,8 +25,10 @@ ColorfulWoodSelectPhotoDelegate
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    //m_photo = [[ColorfulWoodSelectPhoto alloc] initWithWithView:self];
+    self.view.backgroundColor = [UIColor whiteColor];
 
+    //self.m_photo = [[ColorfulWoodSelectPhoto alloc] initWithController:self];
+    [self performSelector:@selector(test) withObject:nil afterDelay:0.1];
 
 }
 
@@ -34,13 +37,21 @@ ColorfulWoodSelectPhotoDelegate
     [super viewWillAppear:animated];
 
 
-    [self performSelector:@selector(test) withObject:nil afterDelay:0.1];
+
 }
 
 - (void)test{
-    [ColorfulWoodAlert showAlertAutoHideWithTitle:@"sssss" afterDelay:2.];
-    [ColorfulWoodAlert showAlertWithTitle:@"232423"];
-    [ColorfulWoodAlert showAlertWaitingNetwork];
+
+    //[self.m_photo interface_show];
+
+    //[ColorfulWoodAlert showAlertAutoHideWithTitle:@"sssss" afterDelay:2.];
+
+    ColorfulWoodImageBrowser * vc = [[ColorfulWoodImageBrowser alloc] init];
+    [vc.m_imageArray addObject:@"http://images.fangshiliu.com/fsl-api2/king/2018-11-23/J51097aea-3eb7-499f-998b-eaeff4643a81.jpg"];
+    [vc.m_imageArray addObject:@"http://images.fangshiliu.com/testup/2018-11-22/P45b58172-5497-402e-b40a-d8024c9c21da.jpg"];
+    vc.m_imageArray = vc.m_imageArray;
+    vc.view.backgroundColor = [UIColor redColor];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /**

@@ -16,9 +16,6 @@
 		8B2A0B4D1E3C17AB00603D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2A0B4B1E3C17AB00603D55 /* LaunchScreen.storyboard */; };
 		8B2A0B581E3C17AB00603D55 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B571E3C17AB00603D55 /* TestUITests.m */; };
 		8B2A0B631E3C17AB00603D55 /* TestUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B2A0B621E3C17AB00603D55 /* TestUIUITests.m */; };
-		8B2A38A31E823EC90099705B /* ColorfulWoodTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2A38A21E823EC90099705B /* ColorfulWoodTools.framework */; };
-		8B2A38A41E823F590099705B /* ColorfulWoodTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2A38A21E823EC90099705B /* ColorfulWoodTools.framework */; };
-		8B2A38A51E823F590099705B /* ColorfulWoodTools.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B2A38A21E823EC90099705B /* ColorfulWoodTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CE8E8D92182A292C2F432E2E /* libPods-TestUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8B2A38A51E823F590099705B /* ColorfulWoodTools.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +68,6 @@
 		8B2A0B5E1E3C17AB00603D55 /* TestUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2A0B621E3C17AB00603D55 /* TestUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIUITests.m; sourceTree = "<group>"; };
 		8B2A0B641E3C17AB00603D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B2A38A21E823EC90099705B /* ColorfulWoodTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ColorfulWoodTools.framework; sourceTree = "<group>"; };
 		8B3A65691E49C760003694A8 /* TestUI.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestUI.pch; sourceTree = "<group>"; };
 		B485B75A70CF5ABE10948B63 /* Pods-TestUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestUI/Pods-TestUI.release.xcconfig"; sourceTree = "<group>"; };
 		E24D33A24C5445A7EAF11A12 /* Pods-TestUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestUI/Pods-TestUI.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,8 +79,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8E8D92182A292C2F432E2E /* libPods-TestUI.a in Frameworks */,
-				8B2A38A31E823EC90099705B /* ColorfulWoodTools.framework in Frameworks */,
-				8B2A38A41E823F590099705B /* ColorfulWoodTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +168,6 @@
 		8B2A0BCD1E43EDAD00603D55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B2A38A21E823EC90099705B /* ColorfulWoodTools.framework */,
 				03E2943E35CC127EB69ABC09 /* libPods-TestUI.a */,
 			);
 			name = Frameworks;
@@ -202,6 +194,7 @@
 				8B2A0B341E3C17AB00603D55 /* Frameworks */,
 				8B2A0B351E3C17AB00603D55 /* Resources */,
 				8B04F4A91E4687FA0095C2EC /* Embed Frameworks */,
+				5290A4AB3727C98FE2076122 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -324,6 +317,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5290A4AB3727C98FE2076122 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestUI/Pods-TestUI-resources.sh",
+				"${PODS_ROOT}/ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/ColorfulWoodNavigationBar/CWNBBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CWNBBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestUI/Pods-TestUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A2123B36C118EC5CA423BBC8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -512,7 +527,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/TestUI/TestUI.pch";
 				INFOPLIST_FILE = TestUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wood.TestUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,7 +549,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/TestUI/TestUI.pch";
 				INFOPLIST_FILE = TestUI/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wood.TestUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";

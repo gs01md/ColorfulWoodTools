@@ -45,6 +45,9 @@ UIScrollViewDelegate
 
         self.m_isShowNaviWhenIn = YES;
     }
+    [self.navigationController setNavigationBarHidden: YES];
+    [self.navigationController setNavigationBarHidden: YES animated: NO];
+    self.navigationController.navigationBar.hidden = YES;
 
 }
 
@@ -57,7 +60,7 @@ UIScrollViewDelegate
         self.navigationController.navigationBar.hidden = NO;
 
     }
-    
+
     [super viewDidDisappear:animated];
 }
 
@@ -71,20 +74,13 @@ UIScrollViewDelegate
 - (void)setupNavigation{
 
     [self.view addSubview:self.m_customNavigationBar];
-    self.m_customNavigationBar.barBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@""]];
-    self.m_customNavigationBar.titleLabelFont = [UIFont fontWithName:@"PingFang-SC-Medium" size:17];
-    self.m_customNavigationBar.titleLabelColor = CWTDColorXRGB(0X1A1A1A);
-
-    UIImage *img = ColorfulWoodNavigationBar_bundle_pngImg(@"back@2x");
-    [self.m_customNavigationBar cw_setLeftButtonWithImage:img];
-    self.m_customNavigationBar.backgroundColor = [UIColor whiteColor];
 
     self.m_customNavigationBar.title = [NSString stringWithFormat:@"%lu/%lu",self.m_indexPath + 1, self.m_imageArray.count];
 
     __weak __typeof(ColorfulWoodImageBrowser*) weakself = self;
 
     if (!self.m_isShowDelete) {
-        [self.m_customNavigationBar cw_setRightButtonWithTitle:@"删除" titleColor:CWTDColorXRGB(0x1a1a1a)];
+        [self.m_customNavigationBar cw_setRightButtonWithTitle:@"删除 " titleColor:CWTDColorXRGB(0x1A1A1A)];
         [self.m_customNavigationBar setOnClickRightButton:^{
             [weakself clickDeleteBtn];
         }];
@@ -203,4 +199,26 @@ UIScrollViewDelegate
     return _m_collectionView;
 }
 
+- (NSMutableArray *)m_imageArray{
+
+    if (!_m_imageArray) {
+        _m_imageArray = [NSMutableArray new];
+    }
+    return _m_imageArray;
+}
+
+- (ColorfulWoodNavigationBar *)m_customNavigationBar{
+
+    if (!_m_customNavigationBar) {
+        _m_customNavigationBar = [ColorfulWoodNavigationBar CustomNavigationBar];
+        UIImage *img = ColorfulWoodNavigationBar_bundle_pngImg(@"back@2x");
+        [_m_customNavigationBar cw_setLeftButtonWithImage:img];
+        _m_customNavigationBar.backgroundColor = [UIColor whiteColor];
+        _m_customNavigationBar.barBackgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@""]];
+        [_m_customNavigationBar cw_setBottomLineHidden:YES];
+        _m_customNavigationBar.titleLabelFont = [UIFont fontWithName:@"PingFang-SC-Medium" size:17];
+        _m_customNavigationBar.titleLabelColor = CWTDColorXRGB(0X1A1A1A);
+    }
+    return _m_customNavigationBar;
+}
 @end
